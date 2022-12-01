@@ -1,0 +1,164 @@
+a{
+    color:  #11999E;
+    margin: 10px 40px;
+}
+body{
+    margin: 0;  /*this will change the default margin for body*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+.bottom-cloud
+{
+    position:absolute;
+    bottom:250px;
+    left:350px;
+}
+.bottom-para{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
+.bottom-container{
+    margin:30px auto 0px auto;
+    background-color: #66BFBF;
+    padding-top: 30px ;
+    padding-bottom: 10px;
+} 
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+.coder{
+    width: 25%;
+    
+    margin-right: 30px; 
+    float: left;
+    /* position: relative;
+    bottom: 100px; */
+}
+.coder1{
+    width: 25%;
+    
+    margin-right: 30px; 
+    float: right;
+}
+#contact{
+    width: 30%;
+    margin: 40px auto 60px auto;
+}
+h1{
+    margin: 50px auto 0 auto;  /*this will change the default margin for head*/
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    /* line-height: 2;  it increase the height to double of text written or basically lenght between what is written below it */
+    font-size: 5.625rem;/* 90/16=5.625emor 562.5% we prefer to use rem as it does not depend on its parent*/
+    /* width:5%;
+    margin:0 auto;      this will make our heading of 5% width and we can align it agian at center by using auto we know 0 for top and bottom and auto for left and right alignment*/
+}
+/* to take anything out of HTML flow we use position:absolute; */
+h2{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem ;  /*40/16=2.5rem*/
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+h3{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    border-color: grey;
+    margin: 100px auto;
+}
+#hello
+{
+    padding-bottom: 50px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.middle-container{
+    padding: 100px 0 100px 0;
+}
+.pro{
+    text-decoration: underline;
+}
+
+p{
+    line-height: 2;
+}
+.skill-row{
+    width:50%; /*it makes this div 50% of toatal screen*/
+    /* text-align: center; */
+    margin:100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2; */
+    overflow: auto; /* we used it because we are facing problem when we have less number of words*/
+}
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;/* we have to make this relative so our clouds will move with relative to its parents which is top container*/
+}
+.top-cloud
+{
+    position: absolute;
+    top: 70px;
+    right:300px;
+}
+/* below is a div */
+
+/* .para1{
+    clear: left;
+}
+.para2{
+    clear: right;
+} */
+/* .contact-me{
+    margin:30px auto 30px auto;
+}*/
+/* .skills
+{
+   
+} */
+
+
+    
+
+/* a:hover{
+    transform: scale(1.3);
+} */
+  
+  /* .btn:hover{
+      transform: scale(1.5) rotate(-10deg);
+  } */
